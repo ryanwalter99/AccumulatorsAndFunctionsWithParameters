@@ -15,7 +15,7 @@ import sys
 from io import StringIO
 
 
-def main():
+def main() -> object:
     """ Calls the   TEST   functions in this module. """
     run_test_sum_of_digits()
     run_test_digits_in_cube()
